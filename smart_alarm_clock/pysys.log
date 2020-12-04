@@ -1,0 +1,529 @@
+2020-12-03 22:18:05 INFO     URLs extracted by get_urls()
+2020-12-03 22:18:05 INFO     Keys extracted by get_key()
+2020-12-03 22:18:05 INFO     Location extracted by get_location()
+2020-12-03 22:18:05 INFO     URLs extracted by get_urls()
+2020-12-03 22:18:05 INFO     Keys extracted by get_key()
+2020-12-03 22:18:05 INFO     Location extracted by get_location()
+2020-12-03 22:18:05 INFO     *** Program Started ***
+2020-12-03 22:18:05 INFO     Notifications returned by create_notifications()
+2020-12-03 22:18:05 INFO     Articles returned by get_news()
+2020-12-03 22:18:05 INFO     Weather returned by get_weather()
+2020-12-03 22:18:05 INFO     Covid information returned by get_covid()
+2020-12-03 22:18:05 INFO     Location extracted by get_location()
+2020-12-03 22:18:05 INFO     Page refreshed by refresh_alarm()
+2020-12-03 22:18:05 INFO     Notifications returned by create_notifications()
+2020-12-03 22:18:05 INFO     Articles returned by get_news()
+2020-12-03 22:18:05 INFO     Weather returned by get_weather()
+2020-12-03 22:18:05 INFO     Covid information returned by get_covid()
+2020-12-03 22:18:05 INFO     Location extracted by get_location()
+2020-12-03 22:18:06 INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-03 22:18:06 INFO     127.0.0.1 - - [03/Dec/2020 22:18:06] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-03 22:18:14 INFO     Weather returned by get_weather()
+2020-12-03 22:18:14 INFO     Covid information returned by get_covid()
+2020-12-03 22:18:14 INFO     Location extracted by get_location()
+2020-12-03 22:18:14 INFO     Alarm set in set_alarms(): Dentist Appointment - The current weather is overcast clouds and the temperature is 3.59°C. - Covid-19 update - The number of total deaths is 63435 and the number of total cases is 1438725. The number of new deaths is 105 and the number of new cases is 11992.
+2020-12-03 22:18:14 INFO     Alarm created in set_new_alarm()
+2020-12-03 22:18:14 INFO     127.0.0.1 - - [03/Dec/2020 22:18:14] "[32mGET /index?alarm=2020-12-03T22%3A19&two=Dentist+Appointment&weather=weather HTTP/1.1[0m" 302 -
+2020-12-03 22:18:14 INFO     127.0.0.1 - - [03/Dec/2020 22:18:14] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-03 22:18:28 INFO     Articles returned by get_news()
+2020-12-03 22:18:28 INFO     Articles returned by get_news()
+2020-12-03 22:18:28 INFO     Articles returned by get_news()
+2020-12-03 22:18:28 INFO     Covid information returned by get_covid()
+2020-12-03 22:18:28 INFO     Location extracted by get_location()
+2020-12-03 22:18:28 INFO     Alarm set in set_alarms(): Car MOT - Top news stories - One - Trump reportedly tells Pompeo that he can do anything he wants in Iran bar 'World War III' - The Independent - two - Brexit fishing row erupts as Macron ally questions UK sovereignty over fish in waters - Daily Express - three - Gaia 'discovery machine' updates star catalogue - BBC News - Covid-19 update - The number of total deaths is 63435 and the number of total cases is 1438725. The number of new deaths is 105 and the number of new cases is 11992.
+2020-12-03 22:18:28 INFO     Alarm created in set_new_alarm()
+2020-12-03 22:18:28 INFO     127.0.0.1 - - [03/Dec/2020 22:18:28] "[32mGET /index?alarm=2020-12-05T09%3A20&two=Car+MOT&news=news HTTP/1.1[0m" 302 -
+2020-12-03 22:18:28 INFO     127.0.0.1 - - [03/Dec/2020 22:18:28] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-03 22:18:32 INFO     Notification deleted in delete_notification(): News Update 20
+2020-12-03 22:18:32 INFO     127.0.0.1 - - [03/Dec/2020 22:18:32] "[37mGET /index?notif=News+Update+20 HTTP/1.1[0m" 200 -
+2020-12-03 22:18:34 INFO     Notification deleted in delete_notification(): News Update 18
+2020-12-03 22:18:34 INFO     127.0.0.1 - - [03/Dec/2020 22:18:34] "[37mGET /index?notif=News+Update+18 HTTP/1.1[0m" 200 -
+2020-12-03 22:18:35 INFO     Notification deleted in delete_notification(): Weather Update
+2020-12-03 22:18:35 INFO     127.0.0.1 - - [03/Dec/2020 22:18:35] "[37mGET /index?notif=Weather+Update HTTP/1.1[0m" 200 -
+2020-12-03 22:19:56 INFO     Alarm announced in set_off_alarm(): Dentist Appointment - The current weather is overcast clouds and the temperature is 3.59°C. - Covid-19 update - The number of total deaths is 63435 and the number of total cases is 1438725. The number of new deaths is 105 and the number of new cases is 11992.
+2020-12-03 22:19:56 INFO     127.0.0.1 - - [03/Dec/2020 22:19:56] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-03 22:20:04 INFO     Alarm deleted in delete_alarm(): 2020-12-05 09:20
+2020-12-03 22:20:04 INFO     127.0.0.1 - - [03/Dec/2020 22:20:04] "[37mGET /index?alarm_item=2020-12-05+09%3A20 HTTP/1.1[0m" 200 -
+2020-12-03 23:04:53 INFO     URLs extracted by get_urls()
+2020-12-03 23:04:53 INFO     Keys extracted by get_key()
+2020-12-03 23:04:53 INFO     Location extracted by get_location()
+2020-12-03 23:04:54 INFO     URLs extracted by get_urls()
+2020-12-03 23:04:54 INFO     Keys extracted by get_key()
+2020-12-03 23:04:54 INFO     Location extracted by get_location()
+2020-12-03 23:04:54 INFO     *** Program Started ***
+2020-12-03 23:04:54 INFO     Notifications returned by create_notifications()
+2020-12-03 23:04:54 INFO     Articles returned by get_news()
+2020-12-03 23:04:54 INFO     Weather returned by get_weather()
+2020-12-03 23:04:54 INFO     Covid information returned by get_covid()
+2020-12-03 23:04:54 INFO     Location extracted by get_location()
+2020-12-03 23:04:54 INFO     Page refreshed by refresh_alarm()
+2020-12-03 23:04:54 INFO     Notifications returned by create_notifications()
+2020-12-03 23:04:54 INFO     Articles returned by get_news()
+2020-12-03 23:04:54 INFO     Weather returned by get_weather()
+2020-12-03 23:04:54 INFO     Covid information returned by get_covid()
+2020-12-03 23:04:54 INFO     Location extracted by get_location()
+2020-12-03 23:04:54 INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-03 23:04:58 INFO     127.0.0.1 - - [03/Dec/2020 23:04:58] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-03 23:25:58 INFO     URLs extracted by get_urls()
+2020-12-03 23:25:58 INFO     Keys extracted by get_key()
+2020-12-03 23:25:58 INFO     Location extracted by get_location()
+2020-12-03 23:25:58 INFO     URLs extracted by get_urls()
+2020-12-03 23:25:58 INFO     Keys extracted by get_key()
+2020-12-03 23:25:58 INFO     Location extracted by get_location()
+2020-12-03 23:25:58 INFO     *** Program Started ***
+2020-12-03 23:25:58 INFO     Weather API version is up to date (check_weather_version())
+2020-12-03 23:25:58 INFO     News API version is up to date (check_news_version())
+2020-12-03 23:25:58 INFO     Covid-19 API version is up to date (check_covid_version())
+2020-12-03 23:25:58 INFO     API versions are up to date.
+2020-12-03 23:25:58 INFO     Notifications returned by create_notifications()
+2020-12-03 23:25:58 INFO     Articles returned by get_news()
+2020-12-03 23:25:58 INFO     Weather returned by get_weather()
+2020-12-03 23:25:58 INFO     Covid information returned by get_covid()
+2020-12-03 23:25:58 INFO     Location extracted by get_location()
+2020-12-03 23:25:59 INFO     Page refreshed by refresh_alarm()
+2020-12-03 23:25:59 INFO     Notifications returned by create_notifications()
+2020-12-03 23:25:59 INFO     Articles returned by get_news()
+2020-12-03 23:25:59 INFO     Weather returned by get_weather()
+2020-12-03 23:25:59 INFO     Covid information returned by get_covid()
+2020-12-03 23:25:59 INFO     Location extracted by get_location()
+2020-12-03 23:25:59 INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-03 23:26:03 INFO     127.0.0.1 - - [03/Dec/2020 23:26:03] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-03 23:26:18 INFO     Notification deleted in delete_notification(): Weather Update
+2020-12-03 23:26:18 INFO     127.0.0.1 - - [03/Dec/2020 23:26:18] "[37mGET /index?notif=Weather+Update HTTP/1.1[0m" 200 -
+2020-12-03 23:32:08 INFO     URLs extracted by get_urls()
+2020-12-03 23:32:08 INFO     Keys extracted by get_key()
+2020-12-03 23:32:08 INFO     Location extracted by get_location()
+2020-12-03 23:32:09 INFO     URLs extracted by get_urls()
+2020-12-03 23:32:09 INFO     Keys extracted by get_key()
+2020-12-03 23:32:09 INFO     Location extracted by get_location()
+2020-12-03 23:32:09 INFO     *** Program Started ***
+2020-12-03 23:32:09 INFO     Weather API version is up to date (check_weather_version())
+2020-12-03 23:32:09 INFO     News API version is up to date (check_news_version())
+2020-12-03 23:32:09 INFO     Location extracted by get_location()
+2020-12-03 23:32:09 INFO     Covid-19 API version is up to date (check_covid_version())
+2020-12-03 23:32:09 INFO     API versions are up to date.
+2020-12-03 23:32:09 INFO     Notifications returned by create_notifications()
+2020-12-03 23:32:09 INFO     Articles returned by get_news()
+2020-12-03 23:32:09 INFO     Weather returned by get_weather()
+2020-12-03 23:32:09 INFO     Covid information returned by get_covid()
+2020-12-03 23:32:09 INFO     Location extracted by get_location()
+2020-12-03 23:32:09 INFO     Page refreshed by refresh_alarm()
+2020-12-03 23:32:09 INFO     Notifications returned by create_notifications()
+2020-12-03 23:32:09 INFO     Articles returned by get_news()
+2020-12-03 23:32:09 INFO     Weather returned by get_weather()
+2020-12-03 23:32:09 INFO     Covid information returned by get_covid()
+2020-12-03 23:32:09 INFO     Location extracted by get_location()
+2020-12-03 23:32:09 INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-03 23:32:12 INFO     127.0.0.1 - - [03/Dec/2020 23:32:12] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-03 23:32:32 INFO     URLs extracted by get_urls()
+2020-12-03 23:32:32 INFO     Keys extracted by get_key()
+2020-12-03 23:32:32 INFO     Location extracted by get_location()
+2020-12-03 23:32:32 INFO     URLs extracted by get_urls()
+2020-12-03 23:32:32 INFO     Keys extracted by get_key()
+2020-12-03 23:32:32 INFO     Location extracted by get_location()
+2020-12-03 23:32:32 INFO     *** Program Started ***
+2020-12-03 23:32:32 INFO     Weather API version is up to date (check_weather_version())
+2020-12-03 23:32:32 INFO     News API version is not up to date (check_news_version()) - ACTION REQUIRED
+2020-12-03 23:32:32 INFO     Location extracted by get_location()
+2020-12-03 23:32:32 INFO     Covid-19 API version is up to date (check_covid_version())
+2020-12-03 23:32:32 INFO     API version issue detected by test_api(). Please update API versions.
+2020-12-03 23:33:04 INFO     URLs extracted by get_urls()
+2020-12-03 23:33:04 INFO     Keys extracted by get_key()
+2020-12-03 23:33:04 INFO     Location extracted by get_location()
+2020-12-03 23:33:04 INFO     URLs extracted by get_urls()
+2020-12-03 23:33:04 INFO     Keys extracted by get_key()
+2020-12-03 23:33:04 INFO     Location extracted by get_location()
+2020-12-03 23:33:04 INFO     *** Program Started ***
+2020-12-03 23:33:04 INFO     Weather API version is up to date (check_weather_version())
+2020-12-03 23:33:04 INFO     News API version is up to date (check_news_version())
+2020-12-03 23:33:04 INFO     Location extracted by get_location()
+2020-12-03 23:33:04 INFO     Covid-19 API version is up to date (check_covid_version())
+2020-12-03 23:33:04 INFO     API versions are up to date.
+2020-12-03 23:33:04 INFO     Notifications returned by create_notifications()
+2020-12-03 23:33:04 INFO     Articles returned by get_news()
+2020-12-03 23:33:04 INFO     Weather returned by get_weather()
+2020-12-03 23:33:04 INFO     Covid information returned by get_covid()
+2020-12-03 23:33:04 INFO     Location extracted by get_location()
+2020-12-03 23:33:04 INFO     Page refreshed by refresh_alarm()
+2020-12-03 23:33:04 INFO     Notifications returned by create_notifications()
+2020-12-03 23:33:04 INFO     Articles returned by get_news()
+2020-12-03 23:33:04 INFO     Weather returned by get_weather()
+2020-12-03 23:33:04 INFO     Covid information returned by get_covid()
+2020-12-03 23:33:04 INFO     Location extracted by get_location()
+2020-12-03 23:33:04 INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-03 23:44:29 INFO     URLs extracted by get_urls()
+2020-12-03 23:44:29 INFO     Keys extracted by get_key()
+2020-12-03 23:44:29 INFO     Location extracted by get_location()
+2020-12-03 23:44:30 INFO     URLs extracted by get_urls()
+2020-12-03 23:44:30 INFO     Keys extracted by get_key()
+2020-12-03 23:44:30 INFO     Location extracted by get_location()
+2020-12-03 23:44:30 INFO     *** Program Started ***
+2020-12-03 23:44:30 INFO     Weather API version is up to date (check_weather_version())
+2020-12-03 23:44:30 INFO     News API version is up to date (check_news_version())
+2020-12-03 23:44:30 INFO     Location extracted by get_location()
+2020-12-03 23:44:30 INFO     Covid-19 API version is up to date (check_covid_version())
+2020-12-03 23:44:30 INFO     API versions are up to date.
+2020-12-03 23:44:30 INFO     Notifications returned by create_notifications()
+2020-12-03 23:44:30 INFO     Articles returned by get_news()
+2020-12-03 23:44:30 INFO     Weather returned by get_weather()
+2020-12-03 23:44:30 INFO     Covid information returned by get_covid()
+2020-12-03 23:44:30 INFO     Location extracted by get_location()
+2020-12-03 23:44:30 INFO     Page refreshed by refresh_alarm()
+2020-12-03 23:44:30 INFO     Notifications returned by create_notifications()
+2020-12-03 23:44:30 INFO     Articles returned by get_news()
+2020-12-03 23:44:30 INFO     Weather returned by get_weather()
+2020-12-03 23:44:30 INFO     Covid information returned by get_covid()
+2020-12-03 23:44:30 INFO     Location extracted by get_location()
+2020-12-03 23:44:30 INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-03 23:44:32 INFO     127.0.0.1 - - [03/Dec/2020 23:44:32] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-03 23:44:41 INFO     Weather returned by get_weather()
+2020-12-03 23:44:41 INFO     Covid information returned by get_covid()
+2020-12-03 23:44:41 INFO     Location extracted by get_location()
+2020-12-03 23:44:41 INFO     Alarm set in set_alarms(): Car MOT - The current weather is moderate rain and the temperature is 3.59°C. - Covid-19 update - The number of total deaths is 63435 and the number of total cases is 1438725. The number of new deaths is 105 and the number of new cases is 11992.
+2020-12-03 23:44:41 INFO     Alarm created in set_new_alarm()
+2020-12-03 23:44:41 INFO     127.0.0.1 - - [03/Dec/2020 23:44:41] "[32mGET /index?alarm=2020-12-03T23%3A45&two=Car+MOT&weather=weather HTTP/1.1[0m" 302 -
+2020-12-03 23:44:41 INFO     127.0.0.1 - - [03/Dec/2020 23:44:41] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-03 23:44:43 INFO     Notification deleted in delete_notification(): News Update 20
+2020-12-03 23:44:43 INFO     127.0.0.1 - - [03/Dec/2020 23:44:43] "[37mGET /index?notif=News+Update+20 HTTP/1.1[0m" 200 -
+2020-12-03 23:44:44 INFO     Notification deleted in delete_notification(): News Update 19
+2020-12-03 23:44:44 INFO     127.0.0.1 - - [03/Dec/2020 23:44:44] "[37mGET /index?notif=News+Update+19 HTTP/1.1[0m" 200 -
+2020-12-03 23:44:46 INFO     Notification deleted in delete_notification(): News Update 18
+2020-12-03 23:44:46 INFO     127.0.0.1 - - [03/Dec/2020 23:44:46] "[37mGET /index?notif=News+Update+18 HTTP/1.1[0m" 200 -
+2020-12-03 23:46:07 INFO     Alarm announced in set_off_alarm(): Car MOT - The current weather is moderate rain and the temperature is 3.59°C. - Covid-19 update - The number of total deaths is 63435 and the number of total cases is 1438725. The number of new deaths is 105 and the number of new cases is 11992.
+2020-12-03 23:46:07 INFO     127.0.0.1 - - [03/Dec/2020 23:46:07] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-03 23:47:46 INFO     URLs extracted by get_urls()
+2020-12-03 23:47:46 INFO     Keys extracted by get_key()
+2020-12-03 23:47:46 INFO     Location extracted by get_location()
+2020-12-03 23:47:46 INFO     URLs extracted by get_urls()
+2020-12-03 23:47:46 INFO     Keys extracted by get_key()
+2020-12-03 23:47:46 INFO     Location extracted by get_location()
+2020-12-03 23:47:47 INFO     *** Program Started ***
+2020-12-03 23:47:47 INFO     Weather API version is up to date (check_weather_version())
+2020-12-03 23:47:47 INFO     News API version is up to date (check_news_version())
+2020-12-03 23:47:47 INFO     Location extracted by get_location()
+2020-12-03 23:47:47 INFO     Covid-19 API version is up to date (check_covid_version())
+2020-12-03 23:47:47 INFO     API versions are up to date.
+2020-12-03 23:47:47 INFO     Notifications returned by create_notifications()
+2020-12-03 23:47:47 INFO     Articles returned by get_news()
+2020-12-03 23:47:47 INFO     Weather returned by get_weather()
+2020-12-03 23:47:47 INFO     Covid information returned by get_covid()
+2020-12-03 23:47:47 INFO     Location extracted by get_location()
+2020-12-03 23:47:47 INFO     Page refreshed by refresh_alarm()
+2020-12-03 23:47:47 INFO     Notifications returned by create_notifications()
+2020-12-03 23:47:47 INFO     Articles returned by get_news()
+2020-12-03 23:47:47 INFO     Weather returned by get_weather()
+2020-12-03 23:47:47 INFO     Covid information returned by get_covid()
+2020-12-03 23:47:47 INFO     Location extracted by get_location()
+2020-12-03 23:47:47 INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-04 00:53:53 INFO     URLs extracted by get_urls()
+2020-12-04 00:53:53 INFO     Keys extracted by get_key()
+2020-12-04 00:53:53 INFO     Location extracted by get_location()
+2020-12-04 00:53:53 INFO     URLs extracted by get_urls()
+2020-12-04 00:53:53 INFO     Keys extracted by get_key()
+2020-12-04 00:53:53 INFO     Location extracted by get_location()
+2020-12-04 00:53:53 INFO     *** Program Started ***
+2020-12-04 00:53:53 INFO     Weather API version is up to date (check_weather_version())
+2020-12-04 00:53:53 INFO     News API version is up to date (check_news_version())
+2020-12-04 00:53:53 INFO     Location extracted by get_location()
+2020-12-04 00:53:53 INFO     Covid-19 API version is up to date (check_covid_version())
+2020-12-04 00:53:53 INFO     API versions are up to date.
+2020-12-04 00:53:53 INFO     Notifications returned by create_notifications()
+2020-12-04 00:53:53 INFO     Articles returned by get_news()
+2020-12-04 00:53:53 INFO     Weather returned by get_weather()
+2020-12-04 00:53:53 INFO     Covid information returned by get_covid()
+2020-12-04 00:53:53 INFO     Location extracted by get_location()
+2020-12-04 00:53:53 INFO     Page refreshed by refresh_alarm()
+2020-12-04 00:53:53 INFO     Notifications returned by create_notifications()
+2020-12-04 00:53:53 INFO     Articles returned by get_news()
+2020-12-04 00:53:53 INFO     Weather returned by get_weather()
+2020-12-04 00:53:53 INFO     Covid information returned by get_covid()
+2020-12-04 00:53:53 INFO     Location extracted by get_location()
+2020-12-04 00:53:53 INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-04 00:53:56 INFO     127.0.0.1 - - [04/Dec/2020 00:53:56] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-04 00:54:07 INFO     Covid information returned by get_covid()
+2020-12-04 00:54:07 INFO     Location extracted by get_location()
+2020-12-04 00:54:07 INFO     Alarm set in set_alarms(): Car MOT - Covid-19 update - The number of total deaths is 63435 and the number of total cases is 1438725. The number of new deaths is 105 and the number of new cases is 11992.
+2020-12-04 00:54:07 INFO     Alarm created in set_new_alarm()
+2020-12-04 00:54:07 INFO     127.0.0.1 - - [04/Dec/2020 00:54:07] "[32mGET /index?alarm=2020-12-04T00%3A54&two=Car+MOT HTTP/1.1[0m" 302 -
+2020-12-04 00:54:23 INFO     Alarm announced in set_off_alarm(): Car MOT - Covid-19 update - The number of total deaths is 63435 and the number of total cases is 1438725. The number of new deaths is 105 and the number of new cases is 11992.
+2020-12-04 00:54:23 INFO     127.0.0.1 - - [04/Dec/2020 00:54:23] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-04 00:54:27 INFO     Alarm deleted in delete_alarm(): 2020-12-04 00:54
+2020-12-04 00:54:27 INFO     127.0.0.1 - - [04/Dec/2020 00:54:27] "[37mGET /index?alarm_item=2020-12-04+00%3A54 HTTP/1.1[0m" 200 -
+2020-12-04 09:31:01 INFO     Covid API Module Tested
+2020-12-04 09:31:01 INFO     Covid information returned by get_covid()
+2020-12-04 09:31:01 INFO     Location extracted by get_location()
+2020-12-04 09:31:02 INFO     Location extracted by get_location()
+2020-12-04 09:31:14 INFO     URLs extracted by get_urls()
+2020-12-04 09:31:14 INFO     Keys extracted by get_key()
+2020-12-04 09:31:14 INFO     Location extracted by get_location()
+2020-12-04 09:31:14 INFO     News API Module Tested
+2020-12-04 09:31:14 INFO     Articles returned by get_news()
+2020-12-04 09:31:21 INFO     URLs extracted by get_urls()
+2020-12-04 09:31:21 INFO     Keys extracted by get_key()
+2020-12-04 09:31:21 INFO     Location extracted by get_location()
+2020-12-04 09:31:21 INFO     Weather API Module Tested
+2020-12-04 09:31:21 INFO     Weather returned by get_weather()
+2020-12-04 09:31:32 INFO     URLs extracted by get_urls()
+2020-12-04 09:31:32 INFO     Keys extracted by get_key()
+2020-12-04 09:31:32 INFO     Location extracted by get_location()
+2020-12-04 09:31:32 INFO     URLs extracted by get_urls()
+2020-12-04 09:31:32 INFO     Keys extracted by get_key()
+2020-12-04 09:31:32 INFO     Location extracted by get_location()
+2020-12-04 09:31:32 INFO     Notification Module Tested
+2020-12-04 09:31:32 INFO     Notifications returned by create_notifications()
+2020-12-04 09:31:32 INFO     Articles returned by get_news()
+2020-12-04 09:31:32 INFO     Weather returned by get_weather()
+2020-12-04 09:31:32 INFO     Covid information returned by get_covid()
+2020-12-04 09:31:32 INFO     Location extracted by get_location()
+2020-12-04 09:31:50 INFO     URLs extracted by get_urls()
+2020-12-04 09:31:50 INFO     Keys extracted by get_key()
+2020-12-04 09:31:50 INFO     Location extracted by get_location()
+2020-12-04 09:31:50 INFO     URLs extracted by get_urls()
+2020-12-04 09:31:50 INFO     Keys extracted by get_key()
+2020-12-04 09:31:50 INFO     Location extracted by get_location()
+2020-12-04 09:31:50 INFO     Test API Module Tested
+2020-12-04 09:31:50 INFO     Weather API version is up to date (check_weather_version())
+2020-12-04 09:31:50 INFO     News API version is up to date (check_news_version())
+2020-12-04 09:31:50 INFO     Location extracted by get_location()
+2020-12-04 09:31:50 INFO     Covid-19 API version is up to date (check_covid_version())
+2020-12-04 09:32:02 INFO     Extract JSON Module Tested
+2020-12-04 09:32:02 INFO     Keys extracted by get_key()
+2020-12-04 09:32:02 INFO     Location extracted by get_location()
+2020-12-04 09:32:02 INFO     URLs extracted by get_urls()
+2020-12-04 09:32:16 INFO     Extract JSON Module Tested
+2020-12-04 09:32:16 INFO     Keys extracted by get_key()
+2020-12-04 09:32:16 INFO     Location extracted by get_location()
+2020-12-04 09:32:16 INFO     URLs extracted by get_urls()
+2020-12-04 09:45:15 INFO     URLs extracted by get_urls()
+2020-12-04 09:45:15 INFO     Keys extracted by get_key()
+2020-12-04 09:45:15 INFO     Location extracted by get_location()
+2020-12-04 09:45:15 INFO     URLs extracted by get_urls()
+2020-12-04 09:45:15 INFO     Keys extracted by get_key()
+2020-12-04 09:45:15 INFO     Location extracted by get_location()
+2020-12-04 09:45:15 INFO     *** Program Started ***
+2020-12-04 09:45:15 INFO     Weather API version is up to date (check_weather_version())
+2020-12-04 09:45:15 INFO     News API version is up to date (check_news_version())
+2020-12-04 09:45:15 INFO     Location extracted by get_location()
+2020-12-04 09:45:15 INFO     Covid-19 API version is up to date (check_covid_version())
+2020-12-04 09:45:15 INFO     API versions are up to date.
+2020-12-04 09:45:15 INFO     Notifications returned by create_notifications()
+2020-12-04 09:45:15 INFO     Articles returned by get_news()
+2020-12-04 09:45:15 INFO     Weather returned by get_weather()
+2020-12-04 09:45:15 INFO     Covid information returned by get_covid()
+2020-12-04 09:45:15 INFO     Location extracted by get_location()
+2020-12-04 09:45:16 INFO     Page refreshed by refresh_alarm()
+2020-12-04 09:45:16 INFO     Notifications returned by create_notifications()
+2020-12-04 09:45:16 INFO     Articles returned by get_news()
+2020-12-04 09:45:16 INFO     Weather returned by get_weather()
+2020-12-04 09:45:16 INFO     Covid information returned by get_covid()
+2020-12-04 09:45:16 INFO     Location extracted by get_location()
+2020-12-04 09:45:16 INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-04 09:45:22 INFO     127.0.0.1 - - [04/Dec/2020 09:45:22] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-04 09:45:23 INFO     127.0.0.1 - - [04/Dec/2020 09:45:23] "[36mGET /static/images/alarm_image.png HTTP/1.1[0m" 304 -
+2020-12-04 09:45:29 INFO     Weather returned by get_weather()
+2020-12-04 09:45:29 INFO     Covid information returned by get_covid()
+2020-12-04 09:45:29 INFO     Location extracted by get_location()
+2020-12-04 09:45:29 INFO     Alarm set in set_alarms(): Dentist Appointment - The current weather is shower rain and the temperature is 4.15°C. - Covid-19 update - The number of total deaths is 63435 and the number of total cases is 1438725. The number of new deaths is 105 and the number of new cases is 11992.
+2020-12-04 09:45:29 INFO     Alarm created in set_new_alarm()
+2020-12-04 09:45:29 INFO     127.0.0.1 - - [04/Dec/2020 09:45:29] "[32mGET /index?alarm=2020-12-04T09%3A46&two=Dentist+Appointment&weather=weather HTTP/1.1[0m" 302 -
+2020-12-04 09:45:30 INFO     127.0.0.1 - - [04/Dec/2020 09:45:30] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-04 09:45:42 INFO     Articles returned by get_news()
+2020-12-04 09:45:42 INFO     Articles returned by get_news()
+2020-12-04 09:45:42 INFO     Articles returned by get_news()
+2020-12-04 09:45:42 INFO     Covid information returned by get_covid()
+2020-12-04 09:45:42 INFO     Location extracted by get_location()
+2020-12-04 09:45:42 INFO     Alarm set in set_alarms(): Car MOT - Top news stories - One - NHS could escape winter crisis as UK ‘almost free of flu’ & Covid rates falling across UK - The Sun - two - Shane Richie's wife Christie gushes over I'm A Celeb star's resurfaced jawline - Daily Mail - three - Games Inbox: How long should Sony make PS4 games for? - Metro.co.uk - Covid-19 update - The number of total deaths is 63435 and the number of total cases is 1438725. The number of new deaths is 105 and the number of new cases is 11992.
+2020-12-04 09:45:42 INFO     Alarm created in set_new_alarm()
+2020-12-04 09:45:42 INFO     127.0.0.1 - - [04/Dec/2020 09:45:42] "[32mGET /index?alarm=2020-12-04T09%3A47&two=Car+MOT&news=news HTTP/1.1[0m" 302 -
+2020-12-04 09:45:42 INFO     127.0.0.1 - - [04/Dec/2020 09:45:42] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-04 09:45:45 INFO     Alarm deleted in delete_alarm(): 2020-12-04 09:47
+2020-12-04 09:45:45 INFO     127.0.0.1 - - [04/Dec/2020 09:45:45] "[37mGET /index?alarm_item=2020-12-04+09%3A47 HTTP/1.1[0m" 200 -
+2020-12-04 09:45:49 INFO     Notification deleted in delete_notification(): News Update 19
+2020-12-04 09:45:49 INFO     127.0.0.1 - - [04/Dec/2020 09:45:49] "[37mGET /index?notif=News+Update+19 HTTP/1.1[0m" 200 -
+2020-12-04 09:45:50 INFO     Notification deleted in delete_notification(): News Update 18
+2020-12-04 09:45:50 INFO     127.0.0.1 - - [04/Dec/2020 09:45:50] "[37mGET /index?notif=News+Update+18 HTTP/1.1[0m" 200 -
+2020-12-04 09:47:11 INFO     Alarm announced in set_off_alarm(): Dentist Appointment - The current weather is shower rain and the temperature is 4.15°C. - Covid-19 update - The number of total deaths is 63435 and the number of total cases is 1438725. The number of new deaths is 105 and the number of new cases is 11992.
+2020-12-04 09:47:11 INFO     127.0.0.1 - - [04/Dec/2020 09:47:11] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-04 10:12:43 INFO     URLs extracted by get_urls()
+2020-12-04 10:12:43 INFO     Keys extracted by get_key()
+2020-12-04 10:12:43 INFO     Location extracted by get_location()
+2020-12-04 10:12:43 INFO     URLs extracted by get_urls()
+2020-12-04 10:12:43 INFO     Keys extracted by get_key()
+2020-12-04 10:12:43 INFO     Location extracted by get_location()
+2020-12-04 10:12:43 INFO     *** Program Started ***
+2020-12-04 10:12:43 INFO     Weather API version is up to date (check_weather_version())
+2020-12-04 10:12:43 INFO     News API version is up to date (check_news_version())
+2020-12-04 10:12:43 INFO     Location extracted by get_location()
+2020-12-04 10:12:43 INFO     Covid-19 API version is up to date (check_covid_version())
+2020-12-04 10:12:43 INFO     API versions are up to date.
+2020-12-04 10:12:43 INFO     Notifications returned by create_notifications()
+2020-12-04 10:12:43 INFO     Articles returned by get_news()
+2020-12-04 10:12:43 INFO     Weather returned by get_weather()
+2020-12-04 10:12:43 INFO     Covid information returned by get_covid()
+2020-12-04 10:12:43 INFO     Location extracted by get_location()
+2020-12-04 10:12:43 INFO     Page refreshed by refresh_alarm()
+2020-12-04 10:12:43 INFO     Notifications returned by create_notifications()
+2020-12-04 10:12:43 INFO     Articles returned by get_news()
+2020-12-04 10:12:44 INFO     Weather returned by get_weather()
+2020-12-04 10:12:44 INFO     Covid information returned by get_covid()
+2020-12-04 10:12:44 INFO     Location extracted by get_location()
+2020-12-04 10:12:44 INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-04 10:12:47 INFO     127.0.0.1 - - [04/Dec/2020 10:12:47] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-04 10:14:39 INFO     URLs extracted by get_urls()
+2020-12-04 10:14:39 INFO     Keys extracted by get_key()
+2020-12-04 10:14:39 INFO     Location extracted by get_location()
+2020-12-04 10:14:39 INFO     URLs extracted by get_urls()
+2020-12-04 10:14:39 INFO     Keys extracted by get_key()
+2020-12-04 10:14:39 INFO     Location extracted by get_location()
+2020-12-04 10:14:39 INFO     *** Program Started ***
+2020-12-04 10:14:39 INFO     Weather API version is up to date (check_weather_version())
+2020-12-04 10:14:39 INFO     News API version is up to date (check_news_version())
+2020-12-04 10:14:39 INFO     Location extracted by get_location()
+2020-12-04 10:14:39 INFO     Covid-19 API version is up to date (check_covid_version())
+2020-12-04 10:14:39 INFO     API versions are up to date.
+2020-12-04 10:14:39 INFO     Notifications returned by create_notifications()
+2020-12-04 10:14:39 INFO     Articles returned by get_news()
+2020-12-04 10:14:39 INFO     Weather returned by get_weather()
+2020-12-04 10:14:39 INFO     Covid information returned by get_covid()
+2020-12-04 10:14:39 INFO     Location extracted by get_location()
+2020-12-04 10:14:39 INFO     Page refreshed by refresh_alarm()
+2020-12-04 10:14:39 INFO     Notifications returned by create_notifications()
+2020-12-04 10:14:39 INFO     Articles returned by get_news()
+2020-12-04 10:14:39 INFO     Weather returned by get_weather()
+2020-12-04 10:14:39 INFO     Covid information returned by get_covid()
+2020-12-04 10:14:39 INFO     Location extracted by get_location()
+2020-12-04 10:14:40 INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-04 10:14:44 INFO     127.0.0.1 - - [04/Dec/2020 10:14:44] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-04 10:16:48 INFO     URLs extracted by get_urls()
+2020-12-04 10:16:48 INFO     Keys extracted by get_key()
+2020-12-04 10:16:48 INFO     Location extracted by get_location()
+2020-12-04 10:16:48 INFO     URLs extracted by get_urls()
+2020-12-04 10:16:48 INFO     Keys extracted by get_key()
+2020-12-04 10:16:48 INFO     Location extracted by get_location()
+2020-12-04 10:16:48 INFO     *** Program Started ***
+2020-12-04 10:16:48 INFO     Weather API version is up to date (check_weather_version())
+2020-12-04 10:16:48 INFO     News API version is up to date (check_news_version())
+2020-12-04 10:16:48 INFO     Location extracted by get_location()
+2020-12-04 10:16:48 INFO     Covid-19 API version is up to date (check_covid_version())
+2020-12-04 10:16:48 INFO     API versions are up to date.
+2020-12-04 10:16:48 INFO     Notifications returned by create_notifications()
+2020-12-04 10:16:48 INFO     Articles returned by get_news()
+2020-12-04 10:16:48 INFO     Weather returned by get_weather()
+2020-12-04 10:16:48 INFO     Covid information returned by get_covid()
+2020-12-04 10:16:48 INFO     Location extracted by get_location()
+2020-12-04 10:16:49 INFO     Page refreshed by refresh_alarm()
+2020-12-04 10:16:49 INFO     Notifications returned by create_notifications()
+2020-12-04 10:16:49 INFO     Articles returned by get_news()
+2020-12-04 10:16:49 INFO     Weather returned by get_weather()
+2020-12-04 10:16:49 INFO     Covid information returned by get_covid()
+2020-12-04 10:16:49 INFO     Location extracted by get_location()
+2020-12-04 10:16:49 INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-04 10:16:53 INFO     127.0.0.1 - - [04/Dec/2020 10:16:53] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-04 10:17:00 INFO     Articles returned by get_news()
+2020-12-04 10:17:00 INFO     Articles returned by get_news()
+2020-12-04 10:17:00 INFO     Articles returned by get_news()
+2020-12-04 10:17:00 INFO     Weather returned by get_weather()
+2020-12-04 10:17:00 INFO     Covid information returned by get_covid()
+2020-12-04 10:17:00 INFO     Location extracted by get_location()
+2020-12-04 10:17:01 INFO     Alarm set in set_alarms(): Car MOT - Top news stories - One - NHS could escape winter crisis as UK ‘almost free of flu’ & Covid rates falling across UK - The Sun - two - Shane Richie's wife Christie gushes over I'm A Celeb star's resurfaced jawline - Daily Mail - three - Games Inbox: How long should Sony make PS4 games for? - Metro.co.uk - The current weather is light intensity shower rain and the temperature is 4.57°C. - Covid-19 update - The number of total deaths is 63435 and the number of total cases is 1438725. The number of new deaths is 105 and the number of new cases is 11992.
+2020-12-04 10:17:01 INFO     Alarm created in set_new_alarm()
+2020-12-04 10:17:01 INFO     127.0.0.1 - - [04/Dec/2020 10:17:01] "[32mGET /index?alarm=2020-12-04T10%3A17&two=Car+MOT&news=news&weather=weather HTTP/1.1[0m" 302 -
+2020-12-04 10:17:57 INFO     URLs extracted by get_urls()
+2020-12-04 10:17:57 INFO     Keys extracted by get_key()
+2020-12-04 10:17:57 INFO     Location extracted by get_location()
+2020-12-04 10:17:57 INFO     URLs extracted by get_urls()
+2020-12-04 10:17:57 INFO     Keys extracted by get_key()
+2020-12-04 10:17:57 INFO     Location extracted by get_location()
+2020-12-04 10:17:57 INFO     *** Program Started ***
+2020-12-04 10:17:57 INFO     Weather API version is up to date (check_weather_version())
+2020-12-04 10:17:57 INFO     News API version is up to date (check_news_version())
+2020-12-04 10:17:57 INFO     Location extracted by get_location()
+2020-12-04 10:17:57 INFO     Covid-19 API version is up to date (check_covid_version())
+2020-12-04 10:17:57 INFO     API versions are up to date.
+2020-12-04 10:17:57 INFO     Notifications returned by create_notifications()
+2020-12-04 10:17:57 INFO     Articles returned by get_news()
+2020-12-04 10:18:09 INFO     URLs extracted by get_urls()
+2020-12-04 10:18:09 INFO     Keys extracted by get_key()
+2020-12-04 10:18:09 INFO     Location extracted by get_location()
+2020-12-04 10:18:09 INFO     URLs extracted by get_urls()
+2020-12-04 10:18:09 INFO     Keys extracted by get_key()
+2020-12-04 10:18:09 INFO     Location extracted by get_location()
+2020-12-04 10:18:09 INFO     *** Program Started ***
+2020-12-04 10:18:09 INFO     Weather API version is up to date (check_weather_version())
+2020-12-04 10:18:09 INFO     News API version is up to date (check_news_version())
+2020-12-04 10:18:09 INFO     Location extracted by get_location()
+2020-12-04 10:18:09 INFO     Covid-19 API version is up to date (check_covid_version())
+2020-12-04 10:18:09 INFO     API versions are up to date.
+2020-12-04 10:18:09 INFO     Notifications returned by create_notifications()
+2020-12-04 10:18:09 INFO     Articles returned by get_news()
+2020-12-04 10:18:09 INFO     Weather returned by get_weather()
+2020-12-04 10:18:09 INFO     Covid information returned by get_covid()
+2020-12-04 10:18:09 INFO     Location extracted by get_location()
+2020-12-04 10:18:09 INFO     Page refreshed by refresh_alarm()
+2020-12-04 10:18:09 INFO     Notifications returned by create_notifications()
+2020-12-04 10:18:09 INFO     Articles returned by get_news()
+2020-12-04 10:18:09 INFO     Weather returned by get_weather()
+2020-12-04 10:18:09 INFO     Covid information returned by get_covid()
+2020-12-04 10:18:09 INFO     Location extracted by get_location()
+2020-12-04 10:18:09 INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-04 10:18:12 INFO     127.0.0.1 - - [04/Dec/2020 10:18:12] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-04 10:18:23 INFO     Articles returned by get_news()
+2020-12-04 10:18:23 INFO     Articles returned by get_news()
+2020-12-04 10:18:23 INFO     Articles returned by get_news()
+2020-12-04 10:18:23 INFO     Weather returned by get_weather()
+2020-12-04 10:18:23 INFO     Covid information returned by get_covid()
+2020-12-04 10:18:23 INFO     Location extracted by get_location()
+2020-12-04 10:18:23 INFO     Alarm set in set_alarms(): Dentist Appointment - Top news stories - One - NHS could escape winter crisis as UK ‘almost free of flu’ & Covid rates falling across UK - The Sun - two - Shane Richie's wife Christie gushes over I'm A Celeb star's resurfaced jawline - Daily Mail - three - Games Inbox: How long should Sony make PS4 games for? - Metro.co.uk - The current weather is light intensity shower rain and the temperature is 4.57°C. - Covid-19 update - The number of total deaths is 63435 and the number of total cases is 1438725. The number of new deaths is 105 and the number of new cases is 11992.
+2020-12-04 10:18:23 INFO     Alarm created in set_new_alarm()
+2020-12-04 10:18:23 INFO     127.0.0.1 - - [04/Dec/2020 10:18:23] "[32mGET /index?alarm=2020-12-04T10%3A19&two=Dentist+Appointment&news=news&weather=weather HTTP/1.1[0m" 302 -
+2020-12-04 10:18:24 INFO     127.0.0.1 - - [04/Dec/2020 10:18:24] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-04 10:18:36 INFO     Weather returned by get_weather()
+2020-12-04 10:18:36 INFO     Covid information returned by get_covid()
+2020-12-04 10:18:36 INFO     Location extracted by get_location()
+2020-12-04 10:18:36 INFO     Alarm set in set_alarms(): Car MOT - The current weather is light intensity shower rain and the temperature is 4.57°C. - Covid-19 update - The number of total deaths is 63435 and the number of total cases is 1438725. The number of new deaths is 105 and the number of new cases is 11992.
+2020-12-04 10:18:36 INFO     Alarm created in set_new_alarm()
+2020-12-04 10:18:36 INFO     127.0.0.1 - - [04/Dec/2020 10:18:36] "[32mGET /index?alarm=2020-12-31T10%3A20&two=Car+MOT&weather=weather HTTP/1.1[0m" 302 -
+2020-12-04 10:18:36 INFO     127.0.0.1 - - [04/Dec/2020 10:18:36] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-04 10:18:40 INFO     Alarm deleted in delete_alarm(): 2020-12-31 10:20
+2020-12-04 10:18:40 INFO     127.0.0.1 - - [04/Dec/2020 10:18:40] "[37mGET /index?alarm_item=2020-12-31+10%3A20 HTTP/1.1[0m" 200 -
+2020-12-04 10:18:41 INFO     Notification deleted in delete_notification(): News Update 1
+2020-12-04 10:18:41 INFO     127.0.0.1 - - [04/Dec/2020 10:18:41] "[37mGET /index?notif=News+Update+1 HTTP/1.1[0m" 200 -
+2020-12-04 10:18:43 INFO     Notification deleted in delete_notification(): News Update 4
+2020-12-04 10:18:43 INFO     127.0.0.1 - - [04/Dec/2020 10:18:43] "[37mGET /index?notif=News+Update+4 HTTP/1.1[0m" 200 -
+2020-12-04 10:23:28 INFO     URLs extracted by get_urls()
+2020-12-04 10:23:28 INFO     Keys extracted by get_key()
+2020-12-04 10:23:28 INFO     Location extracted by get_location()
+2020-12-04 10:23:28 INFO     URLs extracted by get_urls()
+2020-12-04 10:23:28 INFO     Keys extracted by get_key()
+2020-12-04 10:23:28 INFO     Location extracted by get_location()
+2020-12-04 10:23:28 INFO     *** Program Started ***
+2020-12-04 10:23:28 INFO     Weather API version is up to date (check_weather_version())
+2020-12-04 10:23:28 INFO     News API version is up to date (check_news_version())
+2020-12-04 10:23:28 INFO     Location extracted by get_location()
+2020-12-04 10:23:28 INFO     Covid-19 API version is up to date (check_covid_version())
+2020-12-04 10:23:28 INFO     API versions are up to date.
+2020-12-04 10:23:28 INFO     Notifications returned by create_notifications()
+2020-12-04 10:23:28 INFO     Articles returned by get_news()
+2020-12-04 10:23:28 INFO     Weather returned by get_weather()
+2020-12-04 10:23:28 INFO     Covid information returned by get_covid()
+2020-12-04 10:23:28 INFO     Location extracted by get_location()
+2020-12-04 10:23:28 INFO     Page refreshed by refresh_alarm()
+2020-12-04 10:23:28 INFO     Notifications returned by create_notifications()
+2020-12-04 10:23:28 INFO     Articles returned by get_news()
+2020-12-04 10:23:28 INFO     Weather returned by get_weather()
+2020-12-04 10:23:28 INFO     Covid information returned by get_covid()
+2020-12-04 10:23:28 INFO     Location extracted by get_location()
+2020-12-04 10:23:28 INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-04 10:23:31 INFO     127.0.0.1 - - [04/Dec/2020 10:23:31] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-04 10:23:40 INFO     Covid information returned by get_covid()
+2020-12-04 10:23:40 INFO     Location extracted by get_location()
+2020-12-04 10:23:40 INFO     Alarm set in set_alarms(): Car MOT - Covid-19 update - The number of total deaths is 63435 and the number of total cases is 1438725. The number of new deaths is 105 and the number of new cases is 11992.
+2020-12-04 10:23:40 INFO     Alarm created in set_new_alarm()
+2020-12-04 10:23:40 INFO     127.0.0.1 - - [04/Dec/2020 10:23:40] "[32mGET /index?alarm=2020-12-04T10%3A24&two=Car+MOT HTTP/1.1[0m" 302 -
+2020-12-04 10:23:40 INFO     127.0.0.1 - - [04/Dec/2020 10:23:40] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-04 10:23:46 INFO     Notification deleted in delete_notification(): News Update 5
+2020-12-04 10:23:46 INFO     127.0.0.1 - - [04/Dec/2020 10:23:46] "[37mGET /index?notif=News+Update+5 HTTP/1.1[0m" 200 -
+2020-12-04 10:25:02 INFO     Alarm announced in set_off_alarm(): Car MOT - Covid-19 update - The number of total deaths is 63435 and the number of total cases is 1438725. The number of new deaths is 105 and the number of new cases is 11992.
+2020-12-04 10:25:02 INFO     127.0.0.1 - - [04/Dec/2020 10:25:02] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-04 10:25:04 INFO     Alarm deleted in delete_alarm(): 2020-12-04 10:24
+2020-12-04 10:25:04 INFO     127.0.0.1 - - [04/Dec/2020 10:25:04] "[37mGET /index?alarm_item=2020-12-04+10%3A24 HTTP/1.1[0m" 200 -

@@ -1,0 +1,19 @@
+{
+  "API-keys": {
+  "weather_api" : "16fbcd575757b89f225be95621e6cba6",
+  "news_api" : "f3ba5ddc29b3485f9449d276f236c3c5"
+  },
+  
+  "location": {
+  "city" : "Exeter",
+  "country" : "gb",
+  "nation" : "England"
+  },
+  
+  "base-URLs" : {
+  "weather_url" : "http://api.openweathermap.org/data/2.5/weather?",
+  "news_url" : "https://newsapi.org/v2/top-headlines?"
+  },
+  
+  "image" : "alarm_image.png" 
+}
