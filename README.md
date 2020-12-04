@@ -38,6 +38,7 @@ pip install pytest
 Use command line to call python (from the directory smart_alarm_clock) to run the program, then open a web browser (Edge recommended as used for development) and enter the URL: http://127.0.0.1:5000/index and the page will load. Notifications (news, weather and Covid-19) will be shown on the right, alarms on the left. Alarms can be set using the form in the middle of the screen. As long as the program remains running, alarms can be set in advance for any time. Click on the cross by a notification or alarm to delete it. Crtl-C in the command line will stop the program. 
 
 ```bash
+cd smart_alarm_clock
 python main.py
 ```
 
@@ -97,7 +98,12 @@ python extract_json.py
 ```
 To run unit tests:
 - Unit tests are run using pytest. 
-
+- In command line, make sure you are in the smart_alarm_clock directory. 
+- Run the command python -m pytest in order to run the tests. 
+```bash
+cd smart_alarm_clock
+python -m pytest
+```
 The application automatically tests external services and if there is a version issue or similar with the APIs, a log is created and the user is warned to terminate the program as it will not run. 
 ## Authors 
 
@@ -105,8 +111,7 @@ The application automatically tests external services and if there is a version 
 
 ## Handle
 
-GITHUB LINK 
-
+https://github.com/kfb19/Smart-Alarm-Clock
 ## Publish Date 
 
 - Version 0.0.1 was published on 04/12/2020
